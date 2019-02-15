@@ -1,6 +1,6 @@
 # Draw Tree
 
-Generates a json file that the frac-
+Generates a json file that the frac-tree project.
 
 [Creightons Tree Renderer](https://github.com/ckirkendall/frac-tree)
 
