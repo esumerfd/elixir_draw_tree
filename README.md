@@ -1,21 +1,16 @@
-# MakeTree
+# Draw Tree
 
-**TODO: Add description**
+Generates a json file that the frac-
 
-## Installation
+[Creightons Tree Renderer](https://github.com/ckirkendall/frac-tree)
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `make_tree` to your list of dependencies in `mix.exs`:
+## Run
 
-```elixir
-def deps do
-  [
-    {:make_tree, "~> 0.1.0"}
-  ]
-end
-```
+The frac-tree renders a json file periodically. Draw Tree writes to ../frac-tree to create this file so the frac-tree needs to be next to your draw tree directory.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/make_tree](https://hexdocs.pm/make_tree).
+    iex -S mix
+    > Tree.make
+
+
+
 
